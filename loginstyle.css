@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.saatva.com/blog/wp-content/uploads/2021/03/f179b237-37cf-4132-abf4-8497f46b7e19_sleeping-in-space-main-4.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffcc00;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffd700;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: underline;
+}

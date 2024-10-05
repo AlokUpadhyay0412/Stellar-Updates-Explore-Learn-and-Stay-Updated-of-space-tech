@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spacecrafts and Rovers: Past, Present, and Future</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #00695c;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            letter-spacing: 2px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        section {
+            margin: 40px auto;
+            width: 90%;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #004d40;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px #ffeb3b;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            padding: 0 10px;
+        }
+
+        img, .gif {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gif {
+            max-height: 400px;
+        }
+
+        footer {
+            background-color: #00695c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+            border-top: 4px solid #ffeb3b;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                width: 95%;
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 Spacecrafts and Rovers: Past, Present, and Future 🌌</h1>
+    </header>
+
+    <!-- History Section -->
+    <section id="history">
+        <h2>The History of Spacecrafts and Rovers</h2>
+        <p>The journey of space exploration began with the launch of the first artificial satellite, Sputnik 1, in 1957 by the Soviet Union. Since then, many exciting missions have explored space!</p>
+        <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/08/10/9e676db386fdaaf4e80ab52a80db530c1660138878616324_original.jpg" alt="Historical spacecraft" />
+        <p>One of the iconic rovers, NASA's Sojourner, was deployed in 1997 on Mars, pioneering exploration on the Martian surface. Isn't that cool?</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sojourner_on_Mars_PIA01122.jpg/1200px-Sojourner_on_Mars_PIA01122.jpg" alt="Sojourner Rover" />
+    </section>
+
+    <!-- Present Section -->
+    <section id="present">
+        <h2>The Present: Modern Spacecrafts and Rovers</h2>
+        <p>Today, cutting-edge spacecraft and rovers are exploring new frontiers. NASA’s Perseverance rover is currently studying Mars, looking for signs of ancient life!</p>
+        <img src="https://www.sciencefriday.com/wp-content/uploads/2020/07/perserverance-illustration.png" alt="Perseverance Rover" />
+        <p><b>The Perseverance Rover landing:</b></p>
+        <img class="gif" src="https://scitechdaily.com/images/Mars-Perseverance-Landing.gif" alt="Perseverance landing GIF" />
+    </section>
+
+    <!-- Future Section -->
+    <section id="future">
+        <h2>The Future of Spacecrafts and Rovers</h2>
+        <p>The future of space exploration holds exciting possibilities! Plans for crewed missions to Mars are in development, and new technologies are being designed to explore moons such as Europa and Titan.</p>
+        <img src="https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2017/08/01/896/500/694940094001_5528033807001_5528035952001-vs.jpg?ve=1&tl=1" alt="Future rover concept" />
+        <p><b>Futuristic space mission:</b></p>
+        <img class="gif" src="https://bigthink.com/wp-content/uploads/2017/10/18410618.gif?w=335" alt="Future space mission GIF" />
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stellar Update | Space Exploration Chronicles | All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

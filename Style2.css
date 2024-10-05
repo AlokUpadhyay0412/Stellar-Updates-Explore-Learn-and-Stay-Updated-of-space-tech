@@ -1,0 +1,71 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* Signup Container */
+.signup-container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    color: #fff;
+}
+
+.signup-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.signup-form button {
+    padding: 15px;
+    width: 100%;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #4682b4;
+}
+
+/* Animated Background */
+.background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://img.pikbest.com/ai/illus_our/20230427/9c97a98000889f599d57b9735593ea0a.jpg!bw700') no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+    animation: moveBackground 30s linear infinite;
+}
+}

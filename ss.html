@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An interactive guide to the solar system with images and GIFs">
+    <title>The Solar System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #001f3f;
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #005f73;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffdd00;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ffeb3b;
+        }
+        nav {
+            background-color: #0a9396;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd60a;
+        }
+        section {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #94d2bd;
+            margin: 20px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #001219;
+        }
+        .planet {
+            display: flex;
+            align-items: center;
+            background-color: #005f73;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .planet:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        .planet img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .planet p {
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            background-color: #005f73;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .gif {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌌 The Solar System 🌠</h1>
+    <p>Explore the wonders of our solar system!</p>
+</header>
+
+<nav>
+    <a href="#mercury">Mercury</a>
+    <a href="#venus">Venus</a>
+    <a href="#earth">Earth</a>
+    <a href="#mars">Mars</a>
+    <a href="#jupiter">Jupiter</a>
+    <a href="#saturn">Saturn</a>
+    <a href="#uranus">Uranus</a>
+    <a href="#neptune">Neptune</a>
+</nav>
+
+<section id="intro">
+    <h2>🌠 Introduction to the Solar System</h2>
+    <p>The solar system consists of the Sun and the objects that orbit it, including eight planets, moons, comets, and asteroids. Each planet is unique in its characteristics and has fascinating features worth exploring.</p>
+    <img src="https://i.pinimg.com/originals/a2/85/43/a2854362e355f679ac7519d88337d466.gif" alt="Solar System GIF" class="gif">
+</section>
+
+<section id="planets">
+    <h2>🪐 The Planets</h2>
+
+    <div class="planet" id="mercury">
+        <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTFFRKg1XEC7kNu58XVZi9vPh6F9ii0FhevCdEAUKyMEtSdx4HLLLNBMacXXX0Y0gLv" alt="Mercury">
+        <div>
+            <h3>Mercury</h3>
+            <p>Mercury is the smallest planet in the solar system and the closest to the Sun. It's known for its extreme temperatures and rapid orbit.</p>
+            <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="venus">
+        <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT6b03Qr3tnaBzlbznWySao6lYzR84Qw7kF-5DJ6C-3tWD_HB7yHI1dvHB4OwlWX7q-" alt="Venus">
+        <div>
+            <h3>Venus</h3>
+            <p>Venus is the second planet from the Sun and is often referred to as Earth's "sister planet" because of its similar size and composition.</p>
+            <a href="https://en.wikipedia.org/wiki/Venus_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="earth">
+        <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcS4DxT4urCgaTW6L_vFOL69AeAcXfnjMuX18bCmnIUFRvNtaPmiSbrflyVd057woKpL" alt="Earth">
+        <div>
+            <h3>Earth</h3>
+            <p>Earth is the third planet from the Sun and the only planet known to support life. It has a unique atmosphere and surface that make life possible.</p>
+            <a href="https://en.wikipedia.org/wiki/Earth_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="mars">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDWTRRjOSFBFG4iynqRw13CrXzOwuyFFBCA&s" alt="Mars">
+        <div>
+            <h3>Mars</h3>
+            <p>Mars, the "Red Planet," is known for its reddish appearance and is the subject of many space exploration missions seeking signs of life.</p>
+            <a href="https://en.wikipedia.org/wiki/Mars_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="jupiter">
+        <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRS5G-fpV8aDvEWIAPzCqEL1jEWMJl5d2YxkLcVUhNlbFJSasq1s4dNjaJpj4Tgldcl" alt="Jupiter">
+        <div>
+            <h3>Jupiter</h3>
+            <p>Jupiter is the largest planet in the solar system and is known for its massive storms, including the Great Red Spot.</p>
+            <a href="https://en.wikipedia.org/wiki/Jupiter_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="saturn">
+        <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRtrGNZtmAkElsqVnSdSCuE_jSAzf38mjozZQuCPbnEtcjFkNYeiurhjghguHByysc1" alt="Saturn">
+        <div>
+            <h3>Saturn</h3>
+            <p>Saturn is famous for its spectacular ring system, made of ice, dust, and rock particles.</p>
+            <a href="https://en.wikipedia.org/wiki/Saturn_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="uranus">
+        <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSpSO4cQdDF2U3RHXDkKIfis9ofVxh_tC6PF6ZtuX-moYtAOUjruNXgJcfX9auDG9Vk" alt="Uranus">
+        <div>
+            <h3>Uranus</h3>
+            <p>Uranus is a unique planet as it rotates on its side, unlike any other planet in the solar system. It has a pale blue color due to methane in its atmosphere.</p>
+            <a href="https://en.wikipedia.org/wiki/Uranus_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+
+    <div class="planet" id="neptune">
+        <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQe_IBnCqyaShYNI3ECM3d_z87qwfsBERoiSY4D-RWRTm4oDpyX77MOKIRiK5plX_r3" alt="Neptune">
+        <div>
+            <h3>Neptune</h3>
+            <p>Neptune is the farthest planet from the Sun and is known for its deep blue color and strong winds.</p>
+            <a href="https://en.wikipedia.org/wiki/Neptune_(planet)" style="color: #ffdd00;">know more</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Stellar Update | Solar System Guide | All rights reserved</p>
+</footer>
+
+</body>
+</html>
